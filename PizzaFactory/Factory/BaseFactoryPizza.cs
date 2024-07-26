@@ -1,0 +1,14 @@
+﻿using PizzaFactory.Domain;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PizzaFactory.Factory
+{
+    internal abstract class BaseFactoryPizza
+    {
+        public abstract IPizza GetPizza();
+    }
+}
